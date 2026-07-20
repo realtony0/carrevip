@@ -174,7 +174,7 @@ a{color:inherit;text-decoration:none}
 .sp__arrows button:hover{border-color:var(--acc);color:var(--acc);box-shadow:0 0 18px color-mix(in srgb,var(--acc) 45%,transparent)}
 .sp__arrows button:active{transform:scale(.94)}
 
-.sp__rail{display:flex;gap:1rem;overflow-x:auto;padding:.4rem var(--pad) 1rem;scroll-snap-type:x proximity;scrollbar-width:none}
+.sp__rail{display:flex;gap:1rem;overflow-x:auto;padding:.4rem var(--pad) 1rem;scroll-snap-type:x proximity;scrollbar-width:none;-webkit-overflow-scrolling:touch;overscroll-behavior-x:contain}
 .sp__rail::-webkit-scrollbar{display:none}
 .sp__rail figure{position:relative;flex:0 0 auto;width:clamp(240px,32vw,380px);aspect-ratio:4/5;overflow:hidden;border-radius:6px;scroll-snap-align:start;cursor:pointer;transition:transform .6s var(--e),box-shadow .6s var(--e);border:1px solid var(--line)}
 .sp__rail figure:nth-child(3n+2){aspect-ratio:4/3;align-self:flex-end}
@@ -307,6 +307,12 @@ a.visit__line:hover{padding-left:.6rem}
   .sp__top{align-items:flex-start}
   .sp__arrows{display:none}
   .sp__rail figure{width:78vw}
+  /* prevent iOS auto-zoom on input focus (needs >=16px) */
+  .fld input,.fld select,.fld textarea{font-size:16px}
+  /* comfortable tap targets */
+  .menu__cta{padding:.7rem 1.5rem}
+  .lb__nav{width:46px;height:46px}
+  .lb__x{font-size:1.7rem;top:1rem;right:1.2rem}
 }
 
 /* placeholder when an establishment has no photos yet */
