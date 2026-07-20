@@ -169,7 +169,7 @@ export default function Site({ establishments }) {
       var txt = "Bonjour Carré Vip Ngor, je souhaite réserver :\n" +
         "• Nom : " + d.name + "\n• Téléphone : " + d.phone + "\n• Date : " + d.date +
         "\n• Couverts : " + d.guests + "\n• Espace : " + d.space + (d.msg ? "\n• Message : " + d.msg : "");
-      window.open("https://wa.me/22133823326?text=" + encodeURIComponent(txt), "_blank");
+      window.open("https://wa.me/221789008888?text=" + encodeURIComponent(txt), "_blank");
       showToast("Merci " + d.name + " ! Votre demande est prête sur WhatsApp.");
       form.reset();
     }
@@ -393,6 +393,10 @@ export default function Site({ establishments }) {
             <p className="reveal">Réservez votre table, un salon lounge ou un espace au club. Notre équipe vous répond en quelques minutes sur WhatsApp.</p>
 
             <div className="visit__lines reveal">
+              <a className="visit__line" href="https://wa.me/221789008888" target="_blank" rel="noopener">
+                <span className="visit__k">WhatsApp · Commandes</span>
+                <span className="visit__v">+221 78 900 88 88</span>
+              </a>
               <a className="visit__line" href="tel:+22133823326">
                 <span className="visit__k">Téléphone</span>
                 <span className="visit__v">+221 33 823 33 26</span>
