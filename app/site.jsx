@@ -279,7 +279,6 @@ export default function Site({ establishments }) {
           <div className="menu__extra">
             <a className="menu__phone" href="tel:+22133823326">+221 33 823 33 26</a>
             <div className="menu__social">
-              <a href="https://www.instagram.com/lecarre.dkr.officiel/" target="_blank" rel="noopener">Instagram</a>
               <a href="https://www.facebook.com/p/CARRE-VIP-NGOR-route-de-l-a%C3%A9roport-100063702677994/" target="_blank" rel="noopener">Facebook</a>
             </div>
             <span className="menu__addr">Route de l&apos;Aéroport, Ngor · Dakar</span>
@@ -405,7 +404,6 @@ export default function Site({ establishments }) {
               <div className="visit__line">
                 <span className="visit__k">Suivez-nous</span>
                 <span className="visit__v visit__social">
-                  <a href="https://www.instagram.com/lecarre.dkr.officiel/" target="_blank" rel="noopener">Instagram</a>
                   <a href="https://www.facebook.com/p/CARRE-VIP-NGOR-route-de-l-a%C3%A9roport-100063702677994/" target="_blank" rel="noopener">Facebook</a>
                 </span>
               </div>
