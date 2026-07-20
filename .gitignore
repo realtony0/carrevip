@@ -1,0 +1,22 @@
+# dependencies & build
+/node_modules
+/.next
+/out
+/build
+
+# raw source photos & working folders (not needed for the site)
+/assets
+/carre*vip*
+/lounge
+/resto
+/IMG_*.JPG
+/WhatsApp*.jpeg
+/*.jpeg
+/*.JPG
+
+# misc
+.DS_Store
+*.pem
+npm-debug.log*
+.env*.local
+.vercel
